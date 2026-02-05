@@ -1,0 +1,157 @@
+Results directory: C:\Users\duart\Desktop\Tese\Mapping_Tese\mapping_tese\notebooks\results_02_decoding_combined
+Figures directory: C:\Users\duart\Desktop\Tese\Mapping_Tese\mapping_tese\notebooks\results_02_decoding_combined\figures
+Output log: C:\Users\duart\Desktop\Tese\Mapping_Tese\mapping_tese\notebooks\results_02_decoding_combined\analysis_log.txt
+======================================================================
+Total events: 656
+Stimulation events: 320
+Unique electrodes: 20
+
+Samples per subject:
+subject
+sub-p0001    160
+sub-p0002    160
+dtype: int64
+
+Samples per global run:
+{1: 40, 2: 40, 3: 40, 4: 40, 5: 40, 6: 40, 7: 40, 8: 40}
+
+Samples per electrode (pooled):
+  Min: 16, Max: 16, Mean: 16.0
+Reference image shape: (121, 144, 121, 250)
+
+S1 atlas indices: [17]
+Selected atlas regions:
+  - Postcentral Gyrus
+
+Number of voxels in S1 mask: 6895
+
+S1 mask saved to: results_02_decoding_combined\figures\s1_mask.png
+sub-p0001 run 1 (global 1): (121, 144, 121, 250), 40 events
+sub-p0001 run 2 (global 2): (121, 144, 121, 250), 40 events
+sub-p0001 run 3 (global 3): (121, 144, 121, 250), 40 events
+sub-p0001 run 4 (global 4): (121, 144, 121, 250), 40 events
+sub-p0002 run 1 (global 5): (121, 144, 121, 250), 40 events
+sub-p0002 run 2 (global 6): (121, 144, 121, 250), 40 events
+sub-p0002 run 3 (global 7): (121, 144, 121, 250), 40 events
+sub-p0002 run 4 (global 8): (121, 144, 121, 250), 40 events
+
+======================================================================
+FEATURE EXTRACTION SUMMARY
+======================================================================
+Feature matrix shape: (320, 13434)
+Total samples: 320
+Number of classes: 20
+Global runs: [np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8)]
+Samples per electrode: 16.0
+Samples per subject: {'sub-p0001': np.int64(160), 'sub-p0002': np.int64(160)}
+
+Cross-validation setup:
+  Method: Leave-One-Run-Out (LORO)
+  Number of folds: 8
+  Training samples per fold: 280 (14.0 per electrode)
+  Test samples per fold: 40 (2.0 per electrode)
+======================================================================
+======================================================================
+20-WAY ELECTRODE CLASSIFICATION (LORO CV)
+======================================================================
+Fold 1 (run 1, sub-p0001): train_n=280, acc=0.050, bacc=0.050
+Fold 2 (run 2, sub-p0001): train_n=280, acc=0.100, bacc=0.100
+Fold 3 (run 3, sub-p0001): train_n=280, acc=0.025, bacc=0.025
+Fold 4 (run 4, sub-p0001): train_n=280, acc=0.075, bacc=0.075
+Fold 5 (run 5, sub-p0002): train_n=280, acc=0.075, bacc=0.075
+Fold 6 (run 6, sub-p0002): train_n=280, acc=0.075, bacc=0.075
+Fold 7 (run 7, sub-p0002): train_n=280, acc=0.075, bacc=0.075
+Fold 8 (run 8, sub-p0002): train_n=280, acc=0.075, bacc=0.075
+======================================================================
+Mean accuracy:          0.0688 +/- 0.0207
+Mean balanced accuracy: 0.0688 +/- 0.0207
+Chance level:           0.0500 (5.0%)
+Above chance:           +37.5%
+======================================================================
+Figure saved to: results_02_decoding_combined\figures\20way_performance.png
+======================================================================
+PER-ELECTRODE ACCURACY
+======================================================================
+E1: 0.125
+E10: 0.062
+E11: 0.000
+E12: 0.000
+E13: 0.125
+E14: 0.125
+E15: 0.125
+E16: 0.062
+E17: 0.188
+E18: 0.000
+E19: 0.125
+E2: 0.000
+E20: 0.000
+E3: 0.125
+E4: 0.125
+E5: 0.062
+E6: 0.125
+E7: 0.000
+E8: 0.000
+E9: 0.000
+
+Mean per-electrode accuracy: 0.069
+Std per-electrode accuracy:  0.062
+
+Figure saved to: results_02_decoding_combined\figures\20way_confusion_matrix.png
+======================================================================
+BINARY CONTRAST: FINGER vs. ARM
+======================================================================
+Finger samples: 48
+Arm samples:    112
+Total samples:  160
+
+Balanced Accuracy: 0.644 +/- 0.136
+F1 Score:          0.778
+Cohen's Kappa:     0.284
+Chance level:      0.500
+Above chance:      +28.9%
+======================================================================
+======================================================================
+BINARY CONTRAST: HAND vs. ARM
+======================================================================
+Balanced Accuracy: 0.594 +/- 0.065
+Above chance:      +18.8%
+======================================================================
+======================================================================
+BINARY CONTRAST: FOREARM vs. ARM
+======================================================================
+Balanced Accuracy: 0.519 +/- 0.057
+Above chance:      +3.9%
+======================================================================
+
+Figure saved to: results_02_decoding_combined\figures\binary_contrasts_summary.png
+
+======================================================================
+FINAL ANALYSIS SUMMARY
+======================================================================
+
+DATASET:
+  Participants: 2
+  Total runs: 8
+  Total samples: 320
+  Samples per electrode: 16.0
+  Training samples per fold: 280 (14.0 per electrode)
+
+20-WAY ELECTRODE CLASSIFICATION:
+  Mean balanced accuracy: 0.0688 +/- 0.0207
+  Chance level:           0.0500
+  Above chance:           +37.5%
+WEAK SIGNAL - Some electrode-level discrimination but limited
+
+BINARY CONTRASTS (Somatotopic Gradients):
+  Finger vs. Arm      : 0.644 (+28.9% above chance)
+  Hand vs. Arm        : 0.594 (+18.8% above chance)
+  Forearm vs. Arm     : 0.519 (+3.9% above chance)
+
+SAVED OUTPUTS:
+  Results directory: C:\Users\duart\Desktop\Tese\Mapping_Tese\mapping_tese\notebooks\results_02_decoding_combined
+  Figures directory: C:\Users\duart\Desktop\Tese\Mapping_Tese\mapping_tese\notebooks\results_02_decoding_combined\figures
+  Analysis log:      C:\Users\duart\Desktop\Tese\Mapping_Tese\mapping_tese\notebooks\results_02_decoding_combined\analysis_log.txt
+
+======================================================================
+Analysis completed: 2026-02-05 21:25:32
+======================================================================
