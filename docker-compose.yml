@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mapping-tese:
+    build: .
+    container_name: somatosensory_mapping
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./mapping_tese/notebooks:/app/mapping_tese/notebooks
+      - ./mapping_tese/data:/app/mapping_tese/data
+      - ./mapping_tese/scripts:/app/mapping_tese/scripts
+      - ./src:/app/src
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    command: /app/start-jupyter.sh
