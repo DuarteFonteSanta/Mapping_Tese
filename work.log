@@ -1,5 +1,16 @@
 Improvements midterm delivery:
-
     Start: 04/02/2026   End: 08/02/2026
+
     Accuracy results rework
     reworking the svc pipeline and improved results 
+
+Improvements to the code mainantance:
+    Start: 10/02/2026 End: ongoing
+
+    creation of docker file and docker compose file for the project
+
+Working on ANN model:
+    Start:18/02/2026 End: ongoing
+
+    librairies needed
+    pipeline construction (code)

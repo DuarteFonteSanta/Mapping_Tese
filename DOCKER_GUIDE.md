@@ -1,8 +1,4 @@
-
-docker build -t somatosensory-mapping .
-
-docker run -p 8888:8888 -v ${PWD}/mapping_tese/notebooks:/app/mapping_tese/notebooks somatosensory-mapping /app/start-jupyter.sh
-   
+docker-compose up
 
 # List running containers
 docker ps
