@@ -17,6 +17,7 @@ setup(
         "jupyterlab",
         "nilearn",
         "nibabel",
+        "pytorch"
     ],
     extras_require={
         "dev": ["pytest", "black", "flake8"],
