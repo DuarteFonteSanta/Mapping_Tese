@@ -1,3 +1,5 @@
+Update environment: conda env update -f environment.yml --prune
+
 Improvements midterm delivery:
     Start: 04/02/2026   End: 08/02/2026
 
@@ -10,7 +12,33 @@ Improvements to the code mainantance:
     creation of docker file and docker compose file for the project
 
 Working on ANN model:
-    Start:18/02/2026 End: ongoing
+    Start: 18/02/2026 End: ongoing
 
-    librairies needed
+    libraries needed
     pipeline construction (code)
+    First train results -> Overfitting: | Train Acc: 100.00% | Test Acc:   7.50%
+        - Add Dropout
+        - Reduce model size: (512, 256) -> (128, 64)
+        - L2 Reg. (Weight decay)
+        - Reduce dimensionality with PCA
+        - Reduce learning rate
+
+    Second train results:
+        Epoch [ 10/150] | Loss: 3.8487 | Train Acc:   1.67% | Test Acc:   5.00%
+        Epoch [ 20/150] | Loss: 3.3839 | Train Acc:   6.67% | Test Acc:   5.00%
+        Epoch [ 30/150] | Loss: 3.4897 | Train Acc:   7.50% | Test Acc:   7.50%
+        Epoch [ 40/150] | Loss: 3.0142 | Train Acc:  12.50% | Test Acc:   5.00%
+        Epoch [ 50/150] | Loss: 2.9867 | Train Acc:  10.83% | Test Acc:   7.50%
+        Epoch [ 60/150] | Loss: 2.8958 | Train Acc:  13.33% | Test Acc:   5.00%
+        Epoch [ 70/150] | Loss: 2.8751 | Train Acc:  11.67% | Test Acc:   2.50%
+        Epoch [ 80/150] | Loss: 2.7285 | Train Acc:  18.33% | Test Acc:   2.50%
+        Epoch [ 90/150] | Loss: 2.6277 | Train Acc:  25.00% | Test Acc:   2.50%
+        Epoch [100/150] | Loss: 2.6030 | Train Acc:  15.00% | Test Acc:   2.50%
+        Epoch [110/150] | Loss: 2.3744 | Train Acc:  27.50% | Test Acc:   5.00%
+        Epoch [120/150] | Loss: 2.4435 | Train Acc:  26.67% | Test Acc:   5.00%
+        Epoch [130/150] | Loss: 2.4283 | Train Acc:  25.83% | Test Acc:   5.00%
+        Epoch [140/150] | Loss: 2.1391 | Train Acc:  40.00% | Test Acc:   7.50%
+        Epoch [150/150] | Loss: 2.0630 | Train Acc:  40.00% | Test Acc:  10.00%
+
+    Improvements: Add more participants (how to "combine" them all)
+                  Are participants already good for combination? (fmriprep)

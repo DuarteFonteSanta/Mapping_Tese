@@ -3,16 +3,16 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - numpy
+  - numpy<2
   - pandas
   - matplotlib
   - scikit-learn
   - jupyter
   - jupyterlab
   - ipykernel
+  - pytorch
+  - seaborn
   - pip
   - pip:
       - nilearn
       - nibabel
-      - torch
-      - torchvision
