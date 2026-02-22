@@ -10,7 +10,7 @@ dependencies:
   - jupyter
   - jupyterlab
   - ipykernel
-  - pytorch
+  - torch
   - seaborn
   - pip
   - pip:
