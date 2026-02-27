@@ -56,9 +56,12 @@ Working on ANN model:
     Improvements v2:
         Reduce model complexity -> h1=64,h2=32; 32,16; Remove one layer, PCA = 50,30,etc.; dropout 0.3,0.2,etc.
         Implement Loro cv completely -> Train on 1,2,3; Test on 4; Train on 2,3,4; Test on 1; etc. Avg the 4 test accuracies
-        Test several models, to see which one has the best results
-        
+        Test several models, and compare them, to see which combination of parameters is the best
+        batch * 2
+        Remove PCA
 
 TODO:
-    Pesquisar sobre search light
+    Problema de 4 classes (~40%)
     More Data -> Train on the first participant (sub-p0001), save the model and test on the second participant (sub-p0002)
+    Pesquisar sobre search light
+    Transfer learning
