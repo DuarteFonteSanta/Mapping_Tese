@@ -10,6 +10,7 @@ Improvements to the code mainantance:
     Start: 10/02/2026 End: ongoing
 
     creation of docker file and docker compose file for the project
+    Changed paths of the data in the code
 
 Working on ANN model:
     Start: 18/02/2026 End: ongoing
@@ -40,11 +41,24 @@ Working on ANN model:
         Epoch [140/150] | Loss: 2.1391 | Train Acc:  40.00% | Test Acc:   7.50%
         Epoch [150/150] | Loss: 2.0630 | Train Acc:  40.00% | Test Acc:  10.00%
 
-    Improvements:  
+    Improvements v1:  
         Adam vs. Adamw (https://www.datacamp.com/tutorial/adamw-optimizer-in-pytorch)
         Use of another atlas (destrieux_2009), since the harvard_oxford didnt have Left hemisphere
-        Train on the first participant (sub-p0001), save the model and test on the second participant (sub-p0002)
-        Update the layers (dropout, number of nuerons, layers, etc.)
+        Training stops when acc >= 25%, or no improvement after 1000 epochs
+
+    Results after Improvements v1: 
+        Accuracy at 7.5% - 12.5%, barely above random guessing (5%)
+        Training accuracy at ~95% - 100% -> Overfitting
+        Causes: 
+            Insufficient data -> 120 training samples for 20 classes
+            Dropout of 50% not enough
+
+    Improvements v2:
+        Reduce model complexity -> h1=64,h2=32; 32,16; Remove one layer, PCA = 50,30,etc.; dropout 0.3,0.2,etc.
+        Implement Loro cv completely -> Train on 1,2,3; Test on 4; Train on 2,3,4; Test on 1; etc. Avg the 4 test accuracies
+        Test several models, to see which one has the best results
+        
 
 TODO:
     Pesquisar sobre search light
+    More Data -> Train on the first participant (sub-p0001), save the model and test on the second participant (sub-p0002)
