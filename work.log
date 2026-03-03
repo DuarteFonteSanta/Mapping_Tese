@@ -13,7 +13,7 @@ Improvements to the code mainantance:
     Changed paths of the data in the code
 
 Working on ANN model:
-    Start: 18/02/2026 End: ongoing
+    Start: 18/02/2026 End: (27/02/2026?) ongoing
 
     libraries needed
     pipeline construction (code)
@@ -61,6 +61,7 @@ Working on ANN model:
         Remove PCA
 
 4 Class ANN:
+    Start: 27/02/2026 End: ongoing
     - 4 classes to represent the eletrodes, three electrodes were positioned on the middle finger, four on the hand, six on the forearm, and seven on the arm.
         Class 0 -> E1-E3 (Middle Finger)
         Class 1 -> E4-E7 (Hand)
