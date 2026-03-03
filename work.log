@@ -60,6 +60,22 @@ Working on ANN model:
         batch * 2
         Remove PCA
 
+4 Class ANN:
+    - 4 classes to represent the eletrodes, three electrodes were positioned on the middle finger, four on the hand, six on the forearm, and seven on the arm.
+        Class 0 -> E1-E3 (Middle Finger)
+        Class 1 -> E4-E7 (Hand)
+        Class 2 -> E8-E13 (Forearm)
+        Class 3 -> E14-E20 (Arm)
+
+        Feature matrix shape: (160, 2187)
+        Labels shape: (160,)
+        Number of unique regions: 4
+        Label distribution:
+            Middle_Finger (Class 0): 24 samples
+            Hand (Class 1): 32 samples
+            Forearm (Class 2): 48 samples
+            Arm (Class 3): 56 samples
+
 TODO:
     Problema de 4 classes (~40%)
     More Data -> Train on the first participant (sub-p0001), save the model and test on the second participant (sub-p0002)
