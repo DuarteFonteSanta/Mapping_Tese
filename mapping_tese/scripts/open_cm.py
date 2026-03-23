@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 SCRIPT_DIR = Path(__file__).parent
-RESULTS_DIR = SCRIPT_DIR.parent / "notebooks" / "results" / "4_Classes_ANN"
+RESULTS_DIR = SCRIPT_DIR.parent / "notebooks" / "results" / "4_Classes_ANN_DeepRF"
 
-MODEL_NAME = "model_h8-4_wd0.2_dr0.5_pca20"
+MODEL_NAME = "model_h128-32_wd0.5_dr0.6_pca50"
 
 CLASS_LABELS = ['Middle_Finger', 'Hand', 'Forearm', 'Arm']
 
