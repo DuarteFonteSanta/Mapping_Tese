@@ -24,7 +24,7 @@ Thumbs.db
 Desktop.ini
 mapping_tese/data
 *.log
-mapping_tese/notebooks/ANN/results/models
+mapping_tese/notebooks/ANN/results/4_Classes_ANN/models/
 mapping_tese/notebooks/ANN/results/*.txt
 mapping_tese/notebooks/ANN/results/*.csv
 mapping_tese/notebooks/SVC/results/*.txt
