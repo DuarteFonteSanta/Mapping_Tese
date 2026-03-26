@@ -1,0 +1,2578 @@
+MULTI-MODEL TRAINING LOG
+
+
+================================================================================
+EXPERIMENT 1/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 41.88% +/- 3.70%
+Macro Sensitivity: 0.4769, Macro Specificity: 0.8039
+Model saved: model_h64_wd0.0001_dr0.2.pt
+Confusion matrix saved: model_h64_wd0.0001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 2/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 42.50% +/- 3.95%
+Macro Sensitivity: 0.4661, Macro Specificity: 0.8020
+Model saved: model_h64_wd0.0001_dr0.3.pt
+Confusion matrix saved: model_h64_wd0.0001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 3/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 4.15%
+Macro Sensitivity: 0.4263, Macro Specificity: 0.7906
+Model saved: model_h64_wd0.0001_dr0.4.pt
+Confusion matrix saved: model_h64_wd0.0001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 4/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 2.17%
+Macro Sensitivity: 0.3810, Macro Specificity: 0.7803
+Model saved: model_h64_wd0.001_dr0.2.pt
+Confusion matrix saved: model_h64_wd0.001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 5/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 2.80%
+Macro Sensitivity: 0.4182, Macro Specificity: 0.7867
+Model saved: model_h64_wd0.001_dr0.3.pt
+Confusion matrix saved: model_h64_wd0.001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 6/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 41.88% +/- 6.22%
+Macro Sensitivity: 0.4680, Macro Specificity: 0.8085
+Model saved: model_h64_wd0.001_dr0.4.pt
+Confusion matrix saved: model_h64_wd0.001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 7/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 4.10%
+Macro Sensitivity: 0.4275, Macro Specificity: 0.7889
+Model saved: model_h64_wd0.01_dr0.2.pt
+Confusion matrix saved: model_h64_wd0.01_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 8/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 3.70%
+Macro Sensitivity: 0.4431, Macro Specificity: 0.7918
+Model saved: model_h64_wd0.01_dr0.3.pt
+Confusion matrix saved: model_h64_wd0.01_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 9/234
+Config: {'hidden1': 64, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 2.80%
+Macro Sensitivity: 0.4513, Macro Specificity: 0.7973
+Model saved: model_h64_wd0.01_dr0.4.pt
+Confusion matrix saved: model_h64_wd0.01_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 10/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 4.68%
+Macro Sensitivity: 0.4442, Macro Specificity: 0.7961
+Model saved: model_h128_wd0.0001_dr0.2.pt
+Confusion matrix saved: model_h128_wd0.0001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 11/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 2.07%
+Macro Sensitivity: 0.4386, Macro Specificity: 0.7949
+Model saved: model_h128_wd0.0001_dr0.3.pt
+Confusion matrix saved: model_h128_wd0.0001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 12/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 3.25%
+Macro Sensitivity: 0.4189, Macro Specificity: 0.7909
+Model saved: model_h128_wd0.0001_dr0.4.pt
+Confusion matrix saved: model_h128_wd0.0001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 13/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 4.80%
+Macro Sensitivity: 0.4423, Macro Specificity: 0.7917
+Model saved: model_h128_wd0.001_dr0.2.pt
+Confusion matrix saved: model_h128_wd0.001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 14/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 40.62% +/- 4.10%
+Macro Sensitivity: 0.4382, Macro Specificity: 0.7961
+Model saved: model_h128_wd0.001_dr0.3.pt
+Confusion matrix saved: model_h128_wd0.001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 15/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 5.73%
+Macro Sensitivity: 0.4542, Macro Specificity: 0.7989
+Model saved: model_h128_wd0.001_dr0.4.pt
+Confusion matrix saved: model_h128_wd0.001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 16/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 2.72%
+Macro Sensitivity: 0.4237, Macro Specificity: 0.7922
+Model saved: model_h128_wd0.01_dr0.2.pt
+Confusion matrix saved: model_h128_wd0.01_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 17/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.54%
+Macro Sensitivity: 0.3921, Macro Specificity: 0.7844
+Model saved: model_h128_wd0.01_dr0.3.pt
+Confusion matrix saved: model_h128_wd0.01_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 18/234
+Config: {'hidden1': 128, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 43.12% +/- 4.46%
+Macro Sensitivity: 0.4643, Macro Specificity: 0.8032
+Model saved: model_h128_wd0.01_dr0.4.pt
+Confusion matrix saved: model_h128_wd0.01_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 19/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 2.80%
+Macro Sensitivity: 0.4412, Macro Specificity: 0.7972
+Model saved: model_h256_wd0.0001_dr0.2.pt
+Confusion matrix saved: model_h256_wd0.0001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 20/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 40.62% +/- 3.70%
+Macro Sensitivity: 0.4635, Macro Specificity: 0.8015
+Model saved: model_h256_wd0.0001_dr0.3.pt
+Confusion matrix saved: model_h256_wd0.0001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 21/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.0001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 5.30%
+Macro Sensitivity: 0.3880, Macro Specificity: 0.7817
+Model saved: model_h256_wd0.0001_dr0.4.pt
+Confusion matrix saved: model_h256_wd0.0001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 22/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 2.72%
+Macro Sensitivity: 0.3873, Macro Specificity: 0.7812
+Model saved: model_h256_wd0.001_dr0.2.pt
+Confusion matrix saved: model_h256_wd0.001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 23/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 4.68%
+Macro Sensitivity: 0.4557, Macro Specificity: 0.7993
+Model saved: model_h256_wd0.001_dr0.3.pt
+Confusion matrix saved: model_h256_wd0.001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 24/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 5.30%
+Macro Sensitivity: 0.3880, Macro Specificity: 0.7817
+Model saved: model_h256_wd0.001_dr0.4.pt
+Confusion matrix saved: model_h256_wd0.001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 25/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 2.72%
+Macro Sensitivity: 0.3873, Macro Specificity: 0.7812
+Model saved: model_h256_wd0.01_dr0.2.pt
+Confusion matrix saved: model_h256_wd0.01_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 26/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 35.63% +/- 2.72%
+Macro Sensitivity: 0.4327, Macro Specificity: 0.7912
+Model saved: model_h256_wd0.01_dr0.3.pt
+Confusion matrix saved: model_h256_wd0.01_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 27/234
+Config: {'hidden1': 256, 'hidden2': None, 'weight_decay': 0.01, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '1-layer'}
+================================================================================
+
+Mean Accuracy: 39.38% +/- 1.08%
+Macro Sensitivity: 0.4706, Macro Specificity: 0.7980
+Model saved: model_h256_wd0.01_dr0.4.pt
+Confusion matrix saved: model_h256_wd0.01_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 28/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.0001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 1.77%
+Macro Sensitivity: 0.3958, Macro Specificity: 0.7858
+Model saved: model_h256-64_wd0.0001_dr0.2.pt
+Confusion matrix saved: model_h256-64_wd0.0001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 29/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.0001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 42.50% +/- 1.77%
+Macro Sensitivity: 0.4829, Macro Specificity: 0.8061
+Model saved: model_h256-64_wd0.0001_dr0.3.pt
+Confusion matrix saved: model_h256-64_wd0.0001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 30/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.0001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 3.75%
+Macro Sensitivity: 0.4375, Macro Specificity: 0.7923
+Model saved: model_h256-64_wd0.0001_dr0.4.pt
+Confusion matrix saved: model_h256-64_wd0.0001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 31/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 39.38% +/- 5.96%
+Macro Sensitivity: 0.4464, Macro Specificity: 0.7963
+Model saved: model_h256-64_wd0.001_dr0.2.pt
+Confusion matrix saved: model_h256-64_wd0.001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 32/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 3.06%
+Macro Sensitivity: 0.3858, Macro Specificity: 0.7860
+Model saved: model_h256-64_wd0.001_dr0.3.pt
+Confusion matrix saved: model_h256-64_wd0.001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 33/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 41.25% +/- 2.80%
+Macro Sensitivity: 0.4821, Macro Specificity: 0.8094
+Model saved: model_h256-64_wd0.001_dr0.4.pt
+Confusion matrix saved: model_h256-64_wd0.001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 34/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.01, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 43.12% +/- 6.93%
+Macro Sensitivity: 0.4490, Macro Specificity: 0.8046
+Model saved: model_h256-64_wd0.01_dr0.2.pt
+Confusion matrix saved: model_h256-64_wd0.01_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 35/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.01, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 44.38% +/- 4.80%
+Macro Sensitivity: 0.5037, Macro Specificity: 0.8159
+Model saved: model_h256-64_wd0.01_dr0.3.pt
+Confusion matrix saved: model_h256-64_wd0.01_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 36/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.01, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 3.70%
+Macro Sensitivity: 0.4468, Macro Specificity: 0.7954
+Model saved: model_h256-64_wd0.01_dr0.4.pt
+Confusion matrix saved: model_h256-64_wd0.01_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 37/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.0001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 41.25% +/- 1.25%
+Macro Sensitivity: 0.4211, Macro Specificity: 0.7897
+Model saved: model_h128-32_wd0.0001_dr0.2.pt
+Confusion matrix saved: model_h128-32_wd0.0001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 38/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.0001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 43.12% +/- 4.10%
+Macro Sensitivity: 0.4847, Macro Specificity: 0.8100
+Model saved: model_h128-32_wd0.0001_dr0.3.pt
+Confusion matrix saved: model_h128-32_wd0.0001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 39/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.0001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 44.38% +/- 3.25%
+Macro Sensitivity: 0.5078, Macro Specificity: 0.8151
+Model saved: model_h128-32_wd0.0001_dr0.4.pt
+Confusion matrix saved: model_h128-32_wd0.0001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 40/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 45.00% +/- 7.50%
+Macro Sensitivity: 0.4810, Macro Specificity: 0.8076
+Model saved: model_h128-32_wd0.001_dr0.2.pt
+Confusion matrix saved: model_h128-32_wd0.001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 41/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 43.75% +/- 3.75%
+Macro Sensitivity: 0.4881, Macro Specificity: 0.8115
+Model saved: model_h128-32_wd0.001_dr0.3.pt
+Confusion matrix saved: model_h128-32_wd0.001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 42/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.95%
+Macro Sensitivity: 0.4174, Macro Specificity: 0.7898
+Model saved: model_h128-32_wd0.001_dr0.4.pt
+Confusion matrix saved: model_h128-32_wd0.001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 43/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.01, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 41.25% +/- 9.60%
+Macro Sensitivity: 0.4464, Macro Specificity: 0.8012
+Model saved: model_h128-32_wd0.01_dr0.2.pt
+Confusion matrix saved: model_h128-32_wd0.01_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 44/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.01, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 2.80%
+Macro Sensitivity: 0.4260, Macro Specificity: 0.7927
+Model saved: model_h128-32_wd0.01_dr0.3.pt
+Confusion matrix saved: model_h128-32_wd0.01_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 45/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.01, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 45.00% +/- 5.86%
+Macro Sensitivity: 0.5004, Macro Specificity: 0.8104
+Model saved: model_h128-32_wd0.01_dr0.4.pt
+Confusion matrix saved: model_h128-32_wd0.01_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 46/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.0001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 43.75% +/- 5.15%
+Macro Sensitivity: 0.4728, Macro Specificity: 0.8050
+Model saved: model_h64-16_wd0.0001_dr0.2.pt
+Confusion matrix saved: model_h64-16_wd0.0001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 47/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.0001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 4.68%
+Macro Sensitivity: 0.4416, Macro Specificity: 0.7955
+Model saved: model_h64-16_wd0.0001_dr0.3.pt
+Confusion matrix saved: model_h64-16_wd0.0001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 48/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.0001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 41.88% +/- 1.08%
+Macro Sensitivity: 0.4717, Macro Specificity: 0.8057
+Model saved: model_h64-16_wd0.0001_dr0.4.pt
+Confusion matrix saved: model_h64-16_wd0.0001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 49/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.001, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 2.72%
+Macro Sensitivity: 0.4237, Macro Specificity: 0.7877
+Model saved: model_h64-16_wd0.001_dr0.2.pt
+Confusion matrix saved: model_h64-16_wd0.001_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 50/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.001, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 4.68%
+Macro Sensitivity: 0.4267, Macro Specificity: 0.7956
+Model saved: model_h64-16_wd0.001_dr0.3.pt
+Confusion matrix saved: model_h64-16_wd0.001_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 51/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.001, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 42.50% +/- 4.68%
+Macro Sensitivity: 0.4315, Macro Specificity: 0.7972
+Model saved: model_h64-16_wd0.001_dr0.4.pt
+Confusion matrix saved: model_h64-16_wd0.001_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 52/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.01, 'dropout_rate': 0.2, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 45.63% +/- 5.69%
+Macro Sensitivity: 0.4691, Macro Specificity: 0.8079
+Model saved: model_h64-16_wd0.01_dr0.2.pt
+Confusion matrix saved: model_h64-16_wd0.01_dr0.2_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 53/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.01, 'dropout_rate': 0.3, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 41.88% +/- 5.12%
+Macro Sensitivity: 0.4561, Macro Specificity: 0.7984
+Model saved: model_h64-16_wd0.01_dr0.3.pt
+Confusion matrix saved: model_h64-16_wd0.01_dr0.3_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 54/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.01, 'dropout_rate': 0.4, 'pca_components': None, 'architecture': '2-layer'}
+================================================================================
+
+Mean Accuracy: 40.62% +/- 4.46%
+Macro Sensitivity: 0.4661, Macro Specificity: 0.8003
+Model saved: model_h64-16_wd0.01_dr0.4.pt
+Confusion matrix saved: model_h64-16_wd0.01_dr0.4_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 55/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 3.25%
+Macro Sensitivity: 0.3612, Macro Specificity: 0.7774
+Model saved: model_h16_wd0.2_dr0.5_pca10.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 56/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 3.75%
+Macro Sensitivity: 0.3575, Macro Specificity: 0.7803
+Model saved: model_h16_wd0.2_dr0.6_pca10.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 57/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 31.87% +/- 9.58%
+Macro Sensitivity: 0.3177, Macro Specificity: 0.7699
+Model saved: model_h16_wd0.2_dr0.7_pca10.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 58/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 5.00%
+Macro Sensitivity: 0.2731, Macro Specificity: 0.7589
+Model saved: model_h16_wd0.3_dr0.5_pca10.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 59/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.95%
+Macro Sensitivity: 0.3237, Macro Specificity: 0.7739
+Model saved: model_h16_wd0.3_dr0.6_pca10.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 60/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 33.12% +/- 6.47%
+Macro Sensitivity: 0.3185, Macro Specificity: 0.7675
+Model saved: model_h16_wd0.3_dr0.7_pca10.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 61/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 4.80%
+Macro Sensitivity: 0.4208, Macro Specificity: 0.7905
+Model saved: model_h16_wd0.5_dr0.5_pca10.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 62/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 4.80%
+Macro Sensitivity: 0.3144, Macro Specificity: 0.7684
+Model saved: model_h16_wd0.5_dr0.6_pca10.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 63/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 6.12%
+Macro Sensitivity: 0.3620, Macro Specificity: 0.7785
+Model saved: model_h16_wd0.5_dr0.7_pca10.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 64/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 7.37%
+Macro Sensitivity: 0.3713, Macro Specificity: 0.7868
+Model saved: model_h8_wd0.2_dr0.5_pca10.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 65/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 34.38% +/- 10.95%
+Macro Sensitivity: 0.3601, Macro Specificity: 0.7783
+Model saved: model_h8_wd0.2_dr0.6_pca10.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 66/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 29.38% +/- 9.74%
+Macro Sensitivity: 0.2902, Macro Specificity: 0.7655
+Model saved: model_h8_wd0.2_dr0.7_pca10.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 67/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 25.00% +/- 6.12%
+Macro Sensitivity: 0.2753, Macro Specificity: 0.7565
+Model saved: model_h8_wd0.3_dr0.5_pca10.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 68/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 9.76%
+Macro Sensitivity: 0.3683, Macro Specificity: 0.7804
+Model saved: model_h8_wd0.3_dr0.6_pca10.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 69/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.06%
+Macro Sensitivity: 0.3136, Macro Specificity: 0.7721
+Model saved: model_h8_wd0.3_dr0.7_pca10.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 70/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 33.12% +/- 3.70%
+Macro Sensitivity: 0.3106, Macro Specificity: 0.7655
+Model saved: model_h8_wd0.5_dr0.5_pca10.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 71/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 29.38% +/- 6.47%
+Macro Sensitivity: 0.3214, Macro Specificity: 0.7733
+Model saved: model_h8_wd0.5_dr0.6_pca10.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 72/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '1-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 28.12% +/- 12.67%
+Macro Sensitivity: 0.3155, Macro Specificity: 0.7720
+Model saved: model_h8_wd0.5_dr0.7_pca10.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 73/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 2.80%
+Macro Sensitivity: 0.3962, Macro Specificity: 0.7870
+Model saved: model_h16_wd0.2_dr0.5_pca20.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 74/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 32.50% +/- 10.90%
+Macro Sensitivity: 0.3672, Macro Specificity: 0.7802
+Model saved: model_h16_wd0.2_dr0.6_pca20.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 75/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 6.12%
+Macro Sensitivity: 0.4286, Macro Specificity: 0.7970
+Model saved: model_h16_wd0.2_dr0.7_pca20.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 76/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 34.38% +/- 2.07%
+Macro Sensitivity: 0.3731, Macro Specificity: 0.7810
+Model saved: model_h16_wd0.3_dr0.5_pca20.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 77/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 33.75% +/- 3.75%
+Macro Sensitivity: 0.3657, Macro Specificity: 0.7755
+Model saved: model_h16_wd0.3_dr0.6_pca20.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 78/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 6.85%
+Macro Sensitivity: 0.3512, Macro Specificity: 0.7823
+Model saved: model_h16_wd0.3_dr0.7_pca20.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 79/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 2.07%
+Macro Sensitivity: 0.3865, Macro Specificity: 0.7840
+Model saved: model_h16_wd0.5_dr0.5_pca20.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 80/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 1.25%
+Macro Sensitivity: 0.3854, Macro Specificity: 0.7867
+Model saved: model_h16_wd0.5_dr0.6_pca20.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 81/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 31.87% +/- 2.72%
+Macro Sensitivity: 0.3601, Macro Specificity: 0.7743
+Model saved: model_h16_wd0.5_dr0.7_pca20.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 82/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 32.50% +/- 5.86%
+Macro Sensitivity: 0.2846, Macro Specificity: 0.7552
+Model saved: model_h8_wd0.2_dr0.5_pca20.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 83/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 1.77%
+Macro Sensitivity: 0.3408, Macro Specificity: 0.7710
+Model saved: model_h8_wd0.2_dr0.6_pca20.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 84/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 33.12% +/- 4.80%
+Macro Sensitivity: 0.2887, Macro Specificity: 0.7677
+Model saved: model_h8_wd0.2_dr0.7_pca20.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 85/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 33.12% +/- 10.66%
+Macro Sensitivity: 0.3490, Macro Specificity: 0.7775
+Model saved: model_h8_wd0.3_dr0.5_pca20.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 86/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 31.25% +/- 6.73%
+Macro Sensitivity: 0.3281, Macro Specificity: 0.7654
+Model saved: model_h8_wd0.3_dr0.6_pca20.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 87/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 32.50% +/- 2.50%
+Macro Sensitivity: 0.3575, Macro Specificity: 0.7759
+Model saved: model_h8_wd0.3_dr0.7_pca20.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 88/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 9.42%
+Macro Sensitivity: 0.3683, Macro Specificity: 0.7829
+Model saved: model_h8_wd0.5_dr0.5_pca20.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 89/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 33.13% +/- 4.46%
+Macro Sensitivity: 0.3635, Macro Specificity: 0.7725
+Model saved: model_h8_wd0.5_dr0.6_pca20.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 90/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '1-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.54%
+Macro Sensitivity: 0.3813, Macro Specificity: 0.7832
+Model saved: model_h8_wd0.5_dr0.7_pca20.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 91/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 6.25%
+Macro Sensitivity: 0.3962, Macro Specificity: 0.7852
+Model saved: model_h16_wd0.2_dr0.5_pca30.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 92/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 42.50% +/- 9.35%
+Macro Sensitivity: 0.3735, Macro Specificity: 0.7920
+Model saved: model_h16_wd0.2_dr0.6_pca30.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 93/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 10.21%
+Macro Sensitivity: 0.4055, Macro Specificity: 0.7963
+Model saved: model_h16_wd0.2_dr0.7_pca30.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 94/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 3.70%
+Macro Sensitivity: 0.3992, Macro Specificity: 0.7916
+Model saved: model_h16_wd0.3_dr0.5_pca30.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 95/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 5.69%
+Macro Sensitivity: 0.3728, Macro Specificity: 0.7854
+Model saved: model_h16_wd0.3_dr0.6_pca30.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 96/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 6.37%
+Macro Sensitivity: 0.3817, Macro Specificity: 0.7792
+Model saved: model_h16_wd0.3_dr0.7_pca30.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 97/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 5.12%
+Macro Sensitivity: 0.4152, Macro Specificity: 0.7911
+Model saved: model_h16_wd0.5_dr0.5_pca30.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 98/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 30.63% +/- 9.08%
+Macro Sensitivity: 0.3668, Macro Specificity: 0.7785
+Model saved: model_h16_wd0.5_dr0.6_pca30.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 99/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 31.87% +/- 2.72%
+Macro Sensitivity: 0.3512, Macro Specificity: 0.7760
+Model saved: model_h16_wd0.5_dr0.7_pca30.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 100/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 4.10%
+Macro Sensitivity: 0.3013, Macro Specificity: 0.7642
+Model saved: model_h8_wd0.2_dr0.5_pca30.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 101/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 40.62% +/- 4.10%
+Macro Sensitivity: 0.4167, Macro Specificity: 0.8004
+Model saved: model_h8_wd0.2_dr0.6_pca30.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 102/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 28.12% +/- 3.25%
+Macro Sensitivity: 0.3103, Macro Specificity: 0.7636
+Model saved: model_h8_wd0.2_dr0.7_pca30.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 103/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 31.87% +/- 10.36%
+Macro Sensitivity: 0.3661, Macro Specificity: 0.7799
+Model saved: model_h8_wd0.3_dr0.5_pca30.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 104/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 4.51%
+Macro Sensitivity: 0.3854, Macro Specificity: 0.7856
+Model saved: model_h8_wd0.3_dr0.6_pca30.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 105/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 9.90%
+Macro Sensitivity: 0.3315, Macro Specificity: 0.7753
+Model saved: model_h8_wd0.3_dr0.7_pca30.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 106/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 33.75% +/- 4.51%
+Macro Sensitivity: 0.3415, Macro Specificity: 0.7748
+Model saved: model_h8_wd0.5_dr0.5_pca30.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 107/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.95%
+Macro Sensitivity: 0.3780, Macro Specificity: 0.7834
+Model saved: model_h8_wd0.5_dr0.6_pca30.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 108/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '1-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 6.85%
+Macro Sensitivity: 0.3631, Macro Specificity: 0.7781
+Model saved: model_h8_wd0.5_dr0.7_pca30.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 109/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 2.17%
+Macro Sensitivity: 0.3504, Macro Specificity: 0.7788
+Model saved: model_h16_wd0.2_dr0.5_pca50.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 110/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 11.73%
+Macro Sensitivity: 0.3553, Macro Specificity: 0.7867
+Model saved: model_h16_wd0.2_dr0.6_pca50.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 111/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 2.50%
+Macro Sensitivity: 0.4539, Macro Specificity: 0.8037
+Model saved: model_h16_wd0.2_dr0.7_pca50.pt
+Confusion matrix saved: model_h16_wd0.2_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 112/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 2.07%
+Macro Sensitivity: 0.3679, Macro Specificity: 0.7809
+Model saved: model_h16_wd0.3_dr0.5_pca50.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 113/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 34.38% +/- 12.79%
+Macro Sensitivity: 0.3627, Macro Specificity: 0.7822
+Model saved: model_h16_wd0.3_dr0.6_pca50.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 114/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 5.86%
+Macro Sensitivity: 0.3493, Macro Specificity: 0.7775
+Model saved: model_h16_wd0.3_dr0.7_pca50.pt
+Confusion matrix saved: model_h16_wd0.3_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 115/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 1.77%
+Macro Sensitivity: 0.3605, Macro Specificity: 0.7809
+Model saved: model_h16_wd0.5_dr0.5_pca50.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 116/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 3.70%
+Macro Sensitivity: 0.4364, Macro Specificity: 0.7983
+Model saved: model_h16_wd0.5_dr0.6_pca50.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 117/234
+Config: {'hidden1': 16, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 4.80%
+Macro Sensitivity: 0.3717, Macro Specificity: 0.7866
+Model saved: model_h16_wd0.5_dr0.7_pca50.pt
+Confusion matrix saved: model_h16_wd0.5_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 118/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 31.87% +/- 10.06%
+Macro Sensitivity: 0.3393, Macro Specificity: 0.7734
+Model saved: model_h8_wd0.2_dr0.5_pca50.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 119/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 39.38% +/- 5.96%
+Macro Sensitivity: 0.3981, Macro Specificity: 0.7875
+Model saved: model_h8_wd0.2_dr0.6_pca50.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 120/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 40.63% +/- 8.73%
+Macro Sensitivity: 0.4289, Macro Specificity: 0.7977
+Model saved: model_h8_wd0.2_dr0.7_pca50.pt
+Confusion matrix saved: model_h8_wd0.2_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 121/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 32.50% +/- 6.85%
+Macro Sensitivity: 0.3363, Macro Specificity: 0.7731
+Model saved: model_h8_wd0.3_dr0.5_pca50.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 122/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 9.35%
+Macro Sensitivity: 0.3583, Macro Specificity: 0.7787
+Model saved: model_h8_wd0.3_dr0.6_pca50.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 123/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 34.38% +/- 8.36%
+Macro Sensitivity: 0.3389, Macro Specificity: 0.7733
+Model saved: model_h8_wd0.3_dr0.7_pca50.pt
+Confusion matrix saved: model_h8_wd0.3_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 124/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 45.62% +/- 4.10%
+Macro Sensitivity: 0.4334, Macro Specificity: 0.8086
+Model saved: model_h8_wd0.5_dr0.5_pca50.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 125/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 5.12%
+Macro Sensitivity: 0.4334, Macro Specificity: 0.8004
+Model saved: model_h8_wd0.5_dr0.6_pca50.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 126/234
+Config: {'hidden1': 8, 'hidden2': None, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '1-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 33.12% +/- 4.10%
+Macro Sensitivity: 0.3557, Macro Specificity: 0.7746
+Model saved: model_h8_wd0.5_dr0.7_pca50.pt
+Confusion matrix saved: model_h8_wd0.5_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 127/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 4.10%
+Macro Sensitivity: 0.3847, Macro Specificity: 0.7809
+Model saved: model_h256-64_wd0.2_dr0.5_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 128/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 3.54%
+Macro Sensitivity: 0.3720, Macro Specificity: 0.7821
+Model saved: model_h256-64_wd0.2_dr0.6_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 129/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 4.33%
+Macro Sensitivity: 0.3371, Macro Specificity: 0.7733
+Model saved: model_h256-64_wd0.2_dr0.7_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 130/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 2.50%
+Macro Sensitivity: 0.3653, Macro Specificity: 0.7819
+Model saved: model_h256-64_wd0.3_dr0.5_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 131/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 33.12% +/- 3.70%
+Macro Sensitivity: 0.3687, Macro Specificity: 0.7792
+Model saved: model_h256-64_wd0.3_dr0.6_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 132/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.63% +/- 3.70%
+Macro Sensitivity: 0.4081, Macro Specificity: 0.7905
+Model saved: model_h256-64_wd0.3_dr0.7_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 133/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 5.30%
+Macro Sensitivity: 0.4234, Macro Specificity: 0.7918
+Model saved: model_h256-64_wd0.5_dr0.5_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 134/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 32.50% +/- 3.06%
+Macro Sensitivity: 0.3330, Macro Specificity: 0.7711
+Model saved: model_h256-64_wd0.5_dr0.6_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 135/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 4.10%
+Macro Sensitivity: 0.4048, Macro Specificity: 0.7857
+Model saved: model_h256-64_wd0.5_dr0.7_pca10.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 136/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 3.06%
+Macro Sensitivity: 0.3891, Macro Specificity: 0.7831
+Model saved: model_h128-32_wd0.2_dr0.5_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 137/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 4.80%
+Macro Sensitivity: 0.3612, Macro Specificity: 0.7833
+Model saved: model_h128-32_wd0.2_dr0.6_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 138/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.63% +/- 5.41%
+Macro Sensitivity: 0.3426, Macro Specificity: 0.7700
+Model saved: model_h128-32_wd0.2_dr0.7_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 139/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 3.70%
+Macro Sensitivity: 0.2868, Macro Specificity: 0.7647
+Model saved: model_h128-32_wd0.3_dr0.5_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 140/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 3.75%
+Macro Sensitivity: 0.3583, Macro Specificity: 0.7797
+Model saved: model_h128-32_wd0.3_dr0.6_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 141/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 5.30%
+Macro Sensitivity: 0.3650, Macro Specificity: 0.7821
+Model saved: model_h128-32_wd0.3_dr0.7_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 142/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 33.12% +/- 3.25%
+Macro Sensitivity: 0.3400, Macro Specificity: 0.7695
+Model saved: model_h128-32_wd0.5_dr0.5_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 143/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 33.12% +/- 3.25%
+Macro Sensitivity: 0.4044, Macro Specificity: 0.7844
+Model saved: model_h128-32_wd0.5_dr0.6_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 144/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 6.12%
+Macro Sensitivity: 0.3664, Macro Specificity: 0.7739
+Model saved: model_h128-32_wd0.5_dr0.7_pca10.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 145/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 4.51%
+Macro Sensitivity: 0.3516, Macro Specificity: 0.7708
+Model saved: model_h64-16_wd0.2_dr0.5_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 146/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 33.13% +/- 8.73%
+Macro Sensitivity: 0.3471, Macro Specificity: 0.7790
+Model saved: model_h64-16_wd0.2_dr0.6_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 147/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 30.63% +/- 4.80%
+Macro Sensitivity: 0.3802, Macro Specificity: 0.7777
+Model saved: model_h64-16_wd0.2_dr0.7_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 148/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 2.07%
+Macro Sensitivity: 0.3534, Macro Specificity: 0.7765
+Model saved: model_h64-16_wd0.3_dr0.5_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 149/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 8.17%
+Macro Sensitivity: 0.3292, Macro Specificity: 0.7732
+Model saved: model_h64-16_wd0.3_dr0.6_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 150/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 33.75% +/- 5.73%
+Macro Sensitivity: 0.3746, Macro Specificity: 0.7760
+Model saved: model_h64-16_wd0.3_dr0.7_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 151/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 5.59%
+Macro Sensitivity: 0.3624, Macro Specificity: 0.7756
+Model saved: model_h64-16_wd0.5_dr0.5_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.5_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 152/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 2.80%
+Macro Sensitivity: 0.3251, Macro Specificity: 0.7729
+Model saved: model_h64-16_wd0.5_dr0.6_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.6_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 153/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 10, 'architecture': '2-layer-PCA10'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 5.30%
+Macro Sensitivity: 0.3780, Macro Specificity: 0.7835
+Model saved: model_h64-16_wd0.5_dr0.7_pca10.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.7_pca10_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 154/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 4.15%
+Macro Sensitivity: 0.3836, Macro Specificity: 0.7841
+Model saved: model_h256-64_wd0.2_dr0.5_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 155/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 4.15%
+Macro Sensitivity: 0.3553, Macro Specificity: 0.7820
+Model saved: model_h256-64_wd0.2_dr0.6_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 156/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 3.06%
+Macro Sensitivity: 0.4070, Macro Specificity: 0.7925
+Model saved: model_h256-64_wd0.2_dr0.7_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 157/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 5.69%
+Macro Sensitivity: 0.3609, Macro Specificity: 0.7793
+Model saved: model_h256-64_wd0.3_dr0.5_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 158/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 4.80%
+Macro Sensitivity: 0.3538, Macro Specificity: 0.7795
+Model saved: model_h256-64_wd0.3_dr0.6_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 159/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 5.73%
+Macro Sensitivity: 0.3724, Macro Specificity: 0.7803
+Model saved: model_h256-64_wd0.3_dr0.7_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 160/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 2.17%
+Macro Sensitivity: 0.3597, Macro Specificity: 0.7794
+Model saved: model_h256-64_wd0.5_dr0.5_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 161/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 4.33%
+Macro Sensitivity: 0.3330, Macro Specificity: 0.7692
+Model saved: model_h256-64_wd0.5_dr0.6_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 162/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 31.25% +/- 6.25%
+Macro Sensitivity: 0.3683, Macro Specificity: 0.7777
+Model saved: model_h256-64_wd0.5_dr0.7_pca20.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 163/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 2.50%
+Macro Sensitivity: 0.3404, Macro Specificity: 0.7783
+Model saved: model_h128-32_wd0.2_dr0.5_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 164/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 3.70%
+Macro Sensitivity: 0.3780, Macro Specificity: 0.7875
+Model saved: model_h128-32_wd0.2_dr0.6_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 165/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 1.77%
+Macro Sensitivity: 0.3270, Macro Specificity: 0.7729
+Model saved: model_h128-32_wd0.2_dr0.7_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 166/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 33.75% +/- 6.73%
+Macro Sensitivity: 0.3419, Macro Specificity: 0.7772
+Model saved: model_h128-32_wd0.3_dr0.5_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 167/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 33.75% +/- 2.80%
+Macro Sensitivity: 0.4010, Macro Specificity: 0.7831
+Model saved: model_h128-32_wd0.3_dr0.6_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 168/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 39.38% +/- 4.46%
+Macro Sensitivity: 0.4308, Macro Specificity: 0.7952
+Model saved: model_h128-32_wd0.3_dr0.7_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 169/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 31.25% +/- 9.76%
+Macro Sensitivity: 0.3664, Macro Specificity: 0.7764
+Model saved: model_h128-32_wd0.5_dr0.5_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 170/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 33.75% +/- 7.40%
+Macro Sensitivity: 0.4077, Macro Specificity: 0.7851
+Model saved: model_h128-32_wd0.5_dr0.6_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 171/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 31.88% +/- 2.07%
+Macro Sensitivity: 0.3717, Macro Specificity: 0.7773
+Model saved: model_h128-32_wd0.5_dr0.7_pca20.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 172/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 2.17%
+Macro Sensitivity: 0.3430, Macro Specificity: 0.7727
+Model saved: model_h64-16_wd0.2_dr0.5_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 173/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 3.54%
+Macro Sensitivity: 0.4550, Macro Specificity: 0.8011
+Model saved: model_h64-16_wd0.2_dr0.6_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 174/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 29.38% +/- 10.06%
+Macro Sensitivity: 0.3281, Macro Specificity: 0.7689
+Model saved: model_h64-16_wd0.2_dr0.7_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 175/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 40.00% +/- 4.68%
+Macro Sensitivity: 0.4193, Macro Specificity: 0.7917
+Model saved: model_h64-16_wd0.3_dr0.5_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 176/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 34.38% +/- 2.72%
+Macro Sensitivity: 0.3754, Macro Specificity: 0.7810
+Model saved: model_h64-16_wd0.3_dr0.6_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 177/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 2.80%
+Macro Sensitivity: 0.3385, Macro Specificity: 0.7704
+Model saved: model_h64-16_wd0.3_dr0.7_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 178/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 30.63% +/- 9.25%
+Macro Sensitivity: 0.3274, Macro Specificity: 0.7730
+Model saved: model_h64-16_wd0.5_dr0.5_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.5_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 179/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 5.59%
+Macro Sensitivity: 0.3385, Macro Specificity: 0.7791
+Model saved: model_h64-16_wd0.5_dr0.6_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.6_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 180/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 20, 'architecture': '2-layer-PCA20'}
+================================================================================
+
+Mean Accuracy: 31.25% +/- 10.23%
+Macro Sensitivity: 0.3259, Macro Specificity: 0.7676
+Model saved: model_h64-16_wd0.5_dr0.7_pca20.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.7_pca20_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 181/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.54%
+Macro Sensitivity: 0.4096, Macro Specificity: 0.7901
+Model saved: model_h256-64_wd0.2_dr0.5_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 182/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 3.70%
+Macro Sensitivity: 0.3676, Macro Specificity: 0.7762
+Model saved: model_h256-64_wd0.2_dr0.6_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 183/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 2.72%
+Macro Sensitivity: 0.4033, Macro Specificity: 0.7879
+Model saved: model_h256-64_wd0.2_dr0.7_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 184/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 4.68%
+Macro Sensitivity: 0.4185, Macro Specificity: 0.7897
+Model saved: model_h256-64_wd0.3_dr0.5_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 185/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 40.62% +/- 4.80%
+Macro Sensitivity: 0.4208, Macro Specificity: 0.7921
+Model saved: model_h256-64_wd0.3_dr0.6_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 186/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 41.25% +/- 9.44%
+Macro Sensitivity: 0.4368, Macro Specificity: 0.7971
+Model saved: model_h256-64_wd0.3_dr0.7_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 187/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 7.40%
+Macro Sensitivity: 0.3932, Macro Specificity: 0.7861
+Model saved: model_h256-64_wd0.5_dr0.5_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 188/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 3.54%
+Macro Sensitivity: 0.4408, Macro Specificity: 0.7953
+Model saved: model_h256-64_wd0.5_dr0.6_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 189/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 41.88% +/- 9.42%
+Macro Sensitivity: 0.3783, Macro Specificity: 0.7857
+Model saved: model_h256-64_wd0.5_dr0.7_pca30.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 190/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.95%
+Macro Sensitivity: 0.4148, Macro Specificity: 0.7915
+Model saved: model_h128-32_wd0.2_dr0.5_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 191/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 3.25%
+Macro Sensitivity: 0.3936, Macro Specificity: 0.7874
+Model saved: model_h128-32_wd0.2_dr0.6_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 192/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 41.25% +/- 2.80%
+Macro Sensitivity: 0.3296, Macro Specificity: 0.7776
+Model saved: model_h128-32_wd0.2_dr0.7_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 193/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 2.80%
+Macro Sensitivity: 0.3337, Macro Specificity: 0.7718
+Model saved: model_h128-32_wd0.3_dr0.5_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 194/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 4.33%
+Macro Sensitivity: 0.3802, Macro Specificity: 0.7804
+Model saved: model_h128-32_wd0.3_dr0.6_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 195/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 2.07%
+Macro Sensitivity: 0.3583, Macro Specificity: 0.7801
+Model saved: model_h128-32_wd0.3_dr0.7_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 196/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 4.46%
+Macro Sensitivity: 0.3996, Macro Specificity: 0.7881
+Model saved: model_h128-32_wd0.5_dr0.5_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 197/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 39.38% +/- 7.78%
+Macro Sensitivity: 0.3969, Macro Specificity: 0.7920
+Model saved: model_h128-32_wd0.5_dr0.6_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 198/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.54%
+Macro Sensitivity: 0.3225, Macro Specificity: 0.7693
+Model saved: model_h128-32_wd0.5_dr0.7_pca30.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 199/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 2.80%
+Macro Sensitivity: 0.3813, Macro Specificity: 0.7781
+Model saved: model_h64-16_wd0.2_dr0.5_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 200/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 5.69%
+Macro Sensitivity: 0.3769, Macro Specificity: 0.7817
+Model saved: model_h64-16_wd0.2_dr0.6_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 201/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 40.62% +/- 2.07%
+Macro Sensitivity: 0.3891, Macro Specificity: 0.7914
+Model saved: model_h64-16_wd0.2_dr0.7_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 202/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 2.80%
+Macro Sensitivity: 0.3858, Macro Specificity: 0.7834
+Model saved: model_h64-16_wd0.3_dr0.5_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 203/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 43.75% +/- 2.17%
+Macro Sensitivity: 0.3940, Macro Specificity: 0.7952
+Model saved: model_h64-16_wd0.3_dr0.6_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 204/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 30.63% +/- 9.42%
+Macro Sensitivity: 0.3676, Macro Specificity: 0.7779
+Model saved: model_h64-16_wd0.3_dr0.7_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 205/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 4.15%
+Macro Sensitivity: 0.4033, Macro Specificity: 0.7853
+Model saved: model_h64-16_wd0.5_dr0.5_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.5_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 206/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 33.75% +/- 11.25%
+Macro Sensitivity: 0.3836, Macro Specificity: 0.7834
+Model saved: model_h64-16_wd0.5_dr0.6_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.6_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 207/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 30, 'architecture': '2-layer-PCA30'}
+================================================================================
+
+Mean Accuracy: 39.38% +/- 4.80%
+Macro Sensitivity: 0.3627, Macro Specificity: 0.7864
+Model saved: model_h64-16_wd0.5_dr0.7_pca30.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.7_pca30_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 208/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 34.38% +/- 2.07%
+Macro Sensitivity: 0.4412, Macro Specificity: 0.7924
+Model saved: model_h256-64_wd0.2_dr0.5_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 209/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 8.84%
+Macro Sensitivity: 0.3966, Macro Specificity: 0.7869
+Model saved: model_h256-64_wd0.2_dr0.6_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 210/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 5.73%
+Macro Sensitivity: 0.4014, Macro Specificity: 0.7908
+Model saved: model_h256-64_wd0.2_dr0.7_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.2_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 211/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 41.25% +/- 8.39%
+Macro Sensitivity: 0.4382, Macro Specificity: 0.8007
+Model saved: model_h256-64_wd0.3_dr0.5_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 212/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 36.88% +/- 4.46%
+Macro Sensitivity: 0.4167, Macro Specificity: 0.7905
+Model saved: model_h256-64_wd0.3_dr0.6_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 213/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 41.87% +/- 9.08%
+Macro Sensitivity: 0.4401, Macro Specificity: 0.8064
+Model saved: model_h256-64_wd0.3_dr0.7_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.3_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 214/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 6.73%
+Macro Sensitivity: 0.4003, Macro Specificity: 0.7880
+Model saved: model_h256-64_wd0.5_dr0.5_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 215/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 45.00% +/- 6.12%
+Macro Sensitivity: 0.4587, Macro Specificity: 0.8106
+Model saved: model_h256-64_wd0.5_dr0.6_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 216/234
+Config: {'hidden1': 256, 'hidden2': 64, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 3.54%
+Macro Sensitivity: 0.4018, Macro Specificity: 0.7890
+Model saved: model_h256-64_wd0.5_dr0.7_pca50.pt
+Confusion matrix saved: model_h256-64_wd0.5_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 217/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 5.45%
+Macro Sensitivity: 0.3843, Macro Specificity: 0.7890
+Model saved: model_h128-32_wd0.2_dr0.5_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 218/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 41.25% +/- 4.51%
+Macro Sensitivity: 0.3601, Macro Specificity: 0.7849
+Model saved: model_h128-32_wd0.2_dr0.6_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 219/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 40.62% +/- 6.47%
+Macro Sensitivity: 0.4587, Macro Specificity: 0.8038
+Model saved: model_h128-32_wd0.2_dr0.7_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.2_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 220/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 37.50% +/- 10.16%
+Macro Sensitivity: 0.3955, Macro Specificity: 0.7955
+Model saved: model_h128-32_wd0.3_dr0.5_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 221/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 38.75% +/- 8.00%
+Macro Sensitivity: 0.3977, Macro Specificity: 0.7921
+Model saved: model_h128-32_wd0.3_dr0.6_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 222/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 43.12% +/- 7.58%
+Macro Sensitivity: 0.4572, Macro Specificity: 0.8048
+Model saved: model_h128-32_wd0.3_dr0.7_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.3_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 223/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 41.88% +/- 7.37%
+Macro Sensitivity: 0.4658, Macro Specificity: 0.8077
+Model saved: model_h128-32_wd0.5_dr0.5_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 224/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 46.88% +/- 5.96%
+Macro Sensitivity: 0.4382, Macro Specificity: 0.8039
+Model saved: model_h128-32_wd0.5_dr0.6_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 225/234
+Config: {'hidden1': 128, 'hidden2': 32, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 36.25% +/- 4.15%
+Macro Sensitivity: 0.4286, Macro Specificity: 0.7909
+Model saved: model_h128-32_wd0.5_dr0.7_pca50.pt
+Confusion matrix saved: model_h128-32_wd0.5_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 226/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 1.77%
+Macro Sensitivity: 0.3534, Macro Specificity: 0.7751
+Model saved: model_h64-16_wd0.2_dr0.5_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 227/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 35.62% +/- 12.04%
+Macro Sensitivity: 0.3836, Macro Specificity: 0.7835
+Model saved: model_h64-16_wd0.2_dr0.6_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 228/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.2, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 34.38% +/- 10.66%
+Macro Sensitivity: 0.3601, Macro Specificity: 0.7766
+Model saved: model_h64-16_wd0.2_dr0.7_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.2_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 229/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 39.38% +/- 7.78%
+Macro Sensitivity: 0.4423, Macro Specificity: 0.7991
+Model saved: model_h64-16_wd0.3_dr0.5_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 230/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 42.50% +/- 1.77%
+Macro Sensitivity: 0.4193, Macro Specificity: 0.7990
+Model saved: model_h64-16_wd0.3_dr0.6_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 231/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.3, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 41.87% +/- 4.80%
+Macro Sensitivity: 0.3705, Macro Specificity: 0.7838
+Model saved: model_h64-16_wd0.3_dr0.7_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.3_dr0.7_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 232/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.5, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 38.12% +/- 4.80%
+Macro Sensitivity: 0.3482, Macro Specificity: 0.7791
+Model saved: model_h64-16_wd0.5_dr0.5_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.5_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 233/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.6, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 39.38% +/- 6.70%
+Macro Sensitivity: 0.4505, Macro Specificity: 0.8000
+Model saved: model_h64-16_wd0.5_dr0.6_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.6_pca50_confusion_matrix.npy
+
+
+================================================================================
+EXPERIMENT 234/234
+Config: {'hidden1': 64, 'hidden2': 16, 'weight_decay': 0.5, 'dropout_rate': 0.7, 'pca_components': 50, 'architecture': '2-layer-PCA50'}
+================================================================================
+
+Mean Accuracy: 35.00% +/- 9.01%
+Macro Sensitivity: 0.3828, Macro Specificity: 0.7873
+Model saved: model_h64-16_wd0.5_dr0.7_pca50.pt
+Confusion matrix saved: model_h64-16_wd0.5_dr0.7_pca50_confusion_matrix.npy
+
+
+ALL EXPERIMENTS COMPLETE

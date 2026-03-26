@@ -23,5 +23,8 @@ htmlcov/
 Thumbs.db
 Desktop.ini
 mapping_tese/data
-mapping_tese/notebooks/results
 *.log
+mapping_tese/notebooks/ANN/results/models
+mapping_tese/notebooks/ANN/results/*.txt
+mapping_tese/notebooks/ANN/results/*.csv
+mapping_tese/notebooks/SVC/results/*.txt
