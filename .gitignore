@@ -28,3 +28,7 @@ mapping_tese/notebooks/ANN/results/4_Classes_ANN/models/
 mapping_tese/notebooks/ANN/results/**/*.txt
 mapping_tese/notebooks/ANN/results/**/*.csv
 mapping_tese/notebooks/SVC/results/**/*.txt
+mapping_tese/notebooks/Searchlight/results/**/*.txt
+mapping_tese/notebooks/Searchlight_v2/results/**/*.txt
+mapping_tese/notebooks/Searchlight_v2/results/ova_maps/
+mapping_tese/notebooks/Searchlight_v2/results/figures/*.html
