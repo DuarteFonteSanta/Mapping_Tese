@@ -10,9 +10,9 @@ dependencies:
   - jupyter
   - jupyterlab
   - ipykernel
-  - torch
   - seaborn
   - pip
   - pip:
+      - torch
       - nilearn
       - nibabel
