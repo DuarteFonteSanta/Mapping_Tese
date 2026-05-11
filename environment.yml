@@ -16,3 +16,4 @@ dependencies:
       - torch
       - nilearn
       - nibabel
+      - shap
