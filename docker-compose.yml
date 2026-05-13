@@ -10,7 +10,7 @@ services:
       - ./mapping_tese/notebooks:/app/mapping_tese/notebooks
       - ./mapping_tese/data:/app/mapping_tese/data
       - ./mapping_tese/scripts:/app/mapping_tese/scripts
-      - ./src:/app/src
+      - ./mapping_tese/src:/app/mapping_tese/src
     environment:
       - JUPYTER_ENABLE_LAB=yes
     command: /app/start-jupyter.sh
