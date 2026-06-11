@@ -44,3 +44,4 @@ mapping_tese/notebooks/**/results/**/*.csv
 mapping_tese/notebooks/**/results/**/*.html
 mapping_tese/notebooks/**/results/**/models/
 mapping_tese/notebooks/**/results/**/ova_maps/
+mapping_tese/notebooks/**/results/**/*.npy
