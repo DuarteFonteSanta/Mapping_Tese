@@ -1,0 +1,16 @@
+Per-subject SVC vs ANN (Balanced Accuracy)
+
+sub-p0002: SVC=36.16%, ANN=49.70%, Delta=+13.54 pp, Winner=ANN
+sub-p0008: SVC=30.25%, ANN=41.18%, Delta=+10.94 pp, Winner=ANN
+sub-p0016: SVC=23.77%, ANN=33.74%, Delta=+9.97 pp, Winner=ANN
+sub-p0024: SVC=28.20%, ANN=37.20%, Delta=+9.00 pp, Winner=ANN
+sub-p0023: SVC=35.42%, ANN=43.56%, Delta=+8.15 pp, Winner=ANN
+sub-p0005: SVC=31.32%, ANN=38.99%, Delta=+7.66 pp, Winner=ANN
+sub-p0004: SVC=44.90%, ANN=47.99%, Delta=+3.09 pp, Winner=ANN
+
+ANN wins: 7
+SVC wins: 0
+Ties: 0
+Mean Delta (ANN-SVC): +8.91 pp
+Paired t-test p: 0.000339873
+Wilcoxon p: 0.015625
