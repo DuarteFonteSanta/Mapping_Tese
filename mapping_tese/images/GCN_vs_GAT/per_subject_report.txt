@@ -1,0 +1,17 @@
+Per-subject GCN vs GNN (Balanced Accuracy)
+
+sub-p0016: GCN=31.14%, GAT=38.36%, Delta=+7.22 pp, Winner=GAT
+sub-p0004: GCN=30.21%, GAT=36.64%, Delta=+6.44 pp, Winner=GAT
+sub-p0005: GCN=30.21%, GAT=35.27%, Delta=+5.06 pp, Winner=GAT
+sub-p0008: GCN=29.17%, GAT=33.93%, Delta=+4.76 pp, Winner=GAT
+sub-p0023: GCN=27.90%, GAT=30.39%, Delta=+2.49 pp, Winner=GAT
+sub-p0024: GCN=30.73%, GAT=30.47%, Delta=-0.26 pp, Winner=GCN
+sub-p0002: GCN=33.26%, GAT=32.96%, Delta=-0.30 pp, Winner=GCN
+sub-p0009: GCN=32.78%, GAT=31.44%, Delta=-1.34 pp, Winner=GCN
+
+GNN wins: 5
+GCN wins: 3
+Ties: 0
+Mean Delta (GNN-GCN): +3.01 pp
+Paired t-test p: 0.0377105
+Wilcoxon p: 0.109375

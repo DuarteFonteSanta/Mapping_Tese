@@ -1,0 +1,2 @@
+n_subjects,gcn_mean_bal_acc,gcn_std_bal_acc,gat_mean_bal_acc,gat_std_bal_acc,mean_diff_gat_minus_gcn,mean_diff_percent_points,paired_t_p,paired_t_cohen_d,wilcoxon_p
+8,0.30673363095238093,0.01760962600295769,0.33682105654761907,0.029250588536978674,0.030087425595238082,3.0087425595238084,0.03771045624943106,1.2462563969178704,0.109375
