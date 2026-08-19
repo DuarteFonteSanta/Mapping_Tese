@@ -1,0 +1,2 @@
+n_subjects,cnn_mean_bal_acc,cnn_std_bal_acc,ann_mean_bal_acc,ann_std_bal_acc,mean_diff_ann_minus_cnn,mean_diff_percent_points,paired_t_p,paired_t_cohen_d,wilcoxon_p
+8,0.2515345982142857,0.022642808910899665,0.41155133928571425,0.05596410794366902,0.16001674107142855,16.001674107142854,0.00014801564911666015,3.7484422653963345,0.0078125

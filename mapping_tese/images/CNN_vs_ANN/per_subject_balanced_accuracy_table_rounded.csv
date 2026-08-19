@@ -1,0 +1,9 @@
+subject,cnn_bal_acc_pct,ann_bal_acc_pct,delta_ann_minus_cnn_pct,winner
+sub-p0002,25.41,49.7,24.29,ANN
+sub-p0023,21.76,43.56,21.8,ANN
+sub-p0004,26.34,47.99,21.65,ANN
+sub-p0008,24.7,41.18,16.48,ANN
+sub-p0024,22.25,37.2,14.96,ANN
+sub-p0005,28.61,38.99,10.38,ANN
+sub-p0009,26.64,36.87,10.23,ANN
+sub-p0016,25.52,33.74,8.22,ANN

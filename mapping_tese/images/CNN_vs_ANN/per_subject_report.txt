@@ -1,0 +1,17 @@
+Per-subject CNN vs ANN (Balanced Accuracy)
+
+sub-p0002: CNN=25.41%, ANN=49.70%, Delta=+24.29 pp, Winner=ANN
+sub-p0023: CNN=21.76%, ANN=43.56%, Delta=+21.80 pp, Winner=ANN
+sub-p0004: CNN=26.34%, ANN=47.99%, Delta=+21.65 pp, Winner=ANN
+sub-p0008: CNN=24.70%, ANN=41.18%, Delta=+16.48 pp, Winner=ANN
+sub-p0024: CNN=22.25%, ANN=37.20%, Delta=+14.96 pp, Winner=ANN
+sub-p0005: CNN=28.61%, ANN=38.99%, Delta=+10.38 pp, Winner=ANN
+sub-p0009: CNN=26.64%, ANN=36.87%, Delta=+10.23 pp, Winner=ANN
+sub-p0016: CNN=25.52%, ANN=33.74%, Delta=+8.22 pp, Winner=ANN
+
+ANN wins: 8
+CNN wins: 0
+Ties: 0
+Mean Delta (ANN-CNN): +16.00 pp
+Paired t-test p: 0.000148016
+Wilcoxon p: 0.0078125
