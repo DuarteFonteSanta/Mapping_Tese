@@ -35,3 +35,6 @@
     - Gradient measure: replace the raw MNI-z centroid with a position along the gyrus (first principal axis of the ROI voxels, or surface arc length), computed per subject and tested across subjects (N=10) with a one-sample test.
     - Group averaging: check that voxel index equals voxel location across subjects, and normalise per subject before averaging.
     - urface projection: document vol_to_surf settings. Use nearest-neighbour interpolation for categorical maps, which fixes the all-red winner-take-all bug.
+
+criar prṍpria package
+pickle vs csv
