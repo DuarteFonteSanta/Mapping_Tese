@@ -36,5 +36,13 @@
     - Group averaging: check that voxel index equals voxel location across subjects, and normalise per subject before averaging.
     - urface projection: document vol_to_surf settings. Use nearest-neighbour interpolation for categorical maps, which fixes the all-red winner-take-all bug.
 
+IR METENDO TUDO NO ESQUEMA MIRO
 criar prṍpria package
 pickle vs csv
+para cada sujeito pyarray para aquela forma de processar, criar input set 3.1
+não guardar as imagens, apenas ter o código de visualização, pois corre rápido
+DUMMY CLASSIFIER
+
+não ter o shap no training loop, separar
+
+labels reshuffle, testes de permutação (reshuffle)

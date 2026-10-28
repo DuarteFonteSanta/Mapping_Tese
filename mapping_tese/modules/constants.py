@@ -1,7 +1,7 @@
 """ROI region/electrode/label mappings and shared BIDS experiment parameters."""
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 BIDS_ROOT = PROJECT_ROOT / "data" / "BIDS-somatosensory" / "BIDS-somatosensory"
 DERIVATIVES = BIDS_ROOT / "derivatives" / "fmriprep"
 EVENTS_DIR = BIDS_ROOT / "events"

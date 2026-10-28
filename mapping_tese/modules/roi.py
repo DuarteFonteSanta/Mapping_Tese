@@ -27,3 +27,8 @@ def build_masker(reference_bold_img, s1_mask=None, standardize=None):
     masker = NiftiMasker(mask_img=s1_mask_resampled, standardize=standardize)
     masker.fit(reference_bold_img)
     return masker
+
+def fit_masker(reference_bold_path, s1_mask=None, standardize=None):
+    """Load a reference BOLD run from disk and build its ROI masker."""
+    reference_bold_img = load_img(str(reference_bold_path))
+    return build_masker(reference_bold_img, s1_mask=s1_mask, standardize=standardize)
