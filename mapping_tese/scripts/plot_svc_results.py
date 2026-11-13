@@ -34,11 +34,12 @@ def plot_subject_results(subject, results_dir, scheme="s1_hrf6_win1"):
     cm_norm = np.divide(cm, np.where(row_sum == 0, 1, row_sum))
 
     full_pipe = joblib.load(subject_models_dir / "full_pipe.joblib")
+    var = full_pipe.named_steps["var"]
     scaler = full_pipe.named_steps["scale"]
+    select = full_pipe.named_steps["select"]
     svm = full_pipe.named_steps["clf"]
     class_labels = svm.classes_
-    weight_voxel = svm.coef_ / scaler.scale_[np.newaxis, :]
-
+    weight_voxel = var.inverse_transform(select.inverse_transform(svm.coef_) / scaler.scale_[np.newaxis, :])
     chance_level = 1.0 / len(class_labels)
     mean_bacc = float(fold_df["balanced_accuracy"].mean())
 

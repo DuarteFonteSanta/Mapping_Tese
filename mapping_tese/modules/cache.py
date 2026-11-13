@@ -1,14 +1,19 @@
 """Compressed .npz caching of per-subject extracted samples (X, y, groups, tr_subject)."""
-from pathlib import Path
 
+from pathlib import Path
 import joblib
 import numpy as np
-
 from . import constants as C
 from .events import load_subject_events
 from .extraction import extract_run_features, extract_subject_samples
 from .paths import discover_subjects, get_tr, resolve_bold_path
 from .roi import build_s1_mask, fit_masker
+from .betas import extract_subject_betas
+
+EXTRACTORS = {
+    "window": extract_subject_samples,
+    "lss": extract_subject_betas,
+}
 
 
 def cache_path(cache_dir, scheme, subject):
@@ -26,16 +31,29 @@ def load_subject_samples(path):
     return data["X"], data["y"], data["groups"], float(data["tr_subject"])
 
 
-def get_subject_samples(subject, tr_subject, s1_mask, path, expected_n_voxels=None, force_recompute=False):
+def get_subject_samples(subject, tr_subject, s1_mask, path, expected_n_voxels=None, force_recompute=False, extractor=extract_subject_samples):
     """Load from cache if present, otherwise extract (int labels) and save."""
     path = Path(path)
     if path.exists() and not force_recompute:
         return load_subject_samples(path)
 
-    X, y, groups, tr_subject = extract_subject_samples(subject, tr_subject, s1_mask, expected_n_voxels=expected_n_voxels)
+    X, y, groups, tr_subject = extractor(subject, tr_subject, s1_mask, expected_n_voxels=expected_n_voxels)
     save_subject_samples(path, X, y, groups, tr_subject)
     return X, y, groups, tr_subject
 
+def get_features(subject, tr_subject, s1_mask, cache_dir, method="window", expected_n_voxels=None, force_recompute=False):
+    """Return (X, y, groups, tr) for one subject using the feature method selected (window/lss)"""
+    if method not in EXTRACTORS:
+        raise ValueError(f"Unknown feature method {method!r}; Valid options are {sorted(EXTRACTORS)}")
+    return get_subject_samples(
+        subject,
+        tr_subject,
+        s1_mask,
+        cache_path(cache_dir, method, subject),
+        expected_n_voxels,
+        force_recompute,
+        extractor=EXTRACTORS[method],
+    )
 
 def build_subject_cache(subject, s1_mask, cache_dir):
     """Extract one subject's region-labeled features + masker and write them to cache_dir. Returns the dataset path, or None if skipped."""
